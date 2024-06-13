@@ -92,14 +92,14 @@ img{
 /*Background*/
 header{   
     background-color: rgb(62, 51, 207);
-    background-image: url(/proyectos/portafolio/img/vuelta.png);
+    background-image: url(/img/vuelta.png);
     background-repeat: no-repeat;
     background-size: cover;
     
 }
 
 main{
-    background-image: url(/proyectos/portafolio/img/Captura\ de\ pantalla\ 2022-12-14\ 031045.png);
+    background-image: url(/img/Captura\ de\ pantalla\ 2022-12-14\ 031045.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
