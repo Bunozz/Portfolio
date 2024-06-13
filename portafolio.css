@@ -57,8 +57,8 @@
 
 /*main*/
 .tecnologias img {
-    width: 50px; /* Establece el ancho a 50 pixeles */
-    height: 50px; /* Establece el alto a 50 pixeles */
+    width: 50px;
+    height: 50px;
   }
   
 
@@ -73,7 +73,6 @@
     border-radius: 30px;
     width: 1000px;
     height: 500px;
-    padding-top: 25px;
     margin: 0 auto;
 
 }
@@ -81,22 +80,20 @@
 .Misproyectos{
     display: flex;
     justify-content: center;
+    position: relative;
     color: white;
+    padding-top: 25px;
 }
 
-.listaproyectos{
-    list-style: none;
-    padding: 20px;
-    
+.wrapper {
+  position: absolute; /* Posiciona el elemento de forma absoluta */
+  left: 50%; /* Posiciona el centro del elemento en el 50% */
+  transform: translateX(-50%); /* Mueve el elemento la mitad de su ancho hacia la izquierda */
+  
 }
 
+  
 
-
-
-
-.wrapper{
-    padding-bottom: 15%;
-}
 
 .wrapper {
     width: 100%;
