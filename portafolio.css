@@ -56,6 +56,11 @@
 }
 
 /*main*/
+.tecnologias img {
+    width: 50px; /* Establece el ancho a 50 pixeles */
+    height: 50px; /* Establece el alto a 50 pixeles */
+  }
+  
 
 .Proyectos{
     padding-top: 50px;
@@ -84,6 +89,8 @@
     padding: 20px;
     
 }
+
+
 
 
 
@@ -219,6 +226,7 @@ footer{
 
 .Email{
     padding: 2%;
+
 }
 
 .final{
