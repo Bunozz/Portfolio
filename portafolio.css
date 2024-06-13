@@ -56,11 +56,6 @@
 }
 
 /*main*/
-.tecnologia{
-    width: 50px;
-    height: 50px;
-    
-}
 
 .Proyectos{
     padding-top: 50px;
@@ -90,10 +85,6 @@
     
 }
 
-img{
-    width: 25%;
-    height: 20%;
-}
 
 
 .wrapper{
@@ -185,13 +176,13 @@ input:checked + label .description {
     background-image: url('/img/fivertel.png');
 }
 .card[for="c2"] {
-    background-image: url('./img2.jpeg');
+    background-image: url('/img/Gato\ piramidal.gif');
 }
 .card[for="c3"] {
-    background-image: url('./img3.jpeg');
+    background-image: url('/img/Captura\ de\ pantalla\ 2022-12-14\ 180344.png');
 }
 .card[for="c4"] {
-    background-image: url('./img4.jpeg');
+    background-image: url('/img/vuelta.png');
 }
 
 
@@ -212,11 +203,24 @@ main{
 }
 
 footer{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(54, 54, 54);
 }
 
 /*Footer*/
 footer{
     color: white;
-    padding: 50px;
+    text-align: left;
+    
+}
+
+.Celular{
+    padding: 2%;
+}
+
+.Email{
+    padding: 2%;
+}
+
+.final{
+    padding: 2%;
 }
