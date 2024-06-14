@@ -189,14 +189,14 @@ input:checked + label .description {
 /*Background*/
 header{   
     background-color: rgb(62, 51, 207);
-    background-image: url(/img/vuelta.png);
+    background-image: url(/img/Captura\ de\ pantalla\ 2024-06-14\ 010620.png );
     background-repeat: no-repeat;
     background-size: cover;
     
 }
 
 main{
-    background-image: url(/img/Captura\ de\ pantalla\ 2022-12-14\ 031045.png);
+    background-image: url(/img/Captura\ de\ pantalla\ 2022-12-14\ 180204.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -212,7 +212,7 @@ footer{
     
 }
 
-.Celular{
+.Github{
     padding: 2%;
 }
 
