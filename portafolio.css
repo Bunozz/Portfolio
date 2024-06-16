@@ -36,18 +36,40 @@
     padding-right: 100px;
 }
 
-.github{
-    
-}
+.redes {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .redes a{
+    text-decoration: none;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: rgba(46, 41, 41, 0.534);
+    backdrop-filter: blur(10px);
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+  }
+  
+  .redes a:hover {
+    transform: scale(1.2);
+  }
+
 
 .Bruno{
     font-size: 50px;
-    color: rgb(102, 151, 191);
+    color: rgb(0, 0, 0);
 }
 
 .Programador{
     font-size: 25px;
-    color: rgb(102, 151, 191);
+    color: rgb(0, 0, 0);
 }
 
 .foto-perfil{
@@ -85,7 +107,7 @@
     display: flex;
     justify-content: center;
     position: relative;
-    color: rgb(102, 151, 191);
+    color: rgb(255, 255, 255);
     padding-top: 25px;
     font-size: 50px;
 }
@@ -195,6 +217,5 @@ input:checked + label .description {
 /*Background*/
 
 body{
-    background: rgb(73,59,121);
-    background: radial-gradient(circle, rgba(73,59,121,1) 0%, rgba(215,10,128,1) 19%, rgba(255,53,77,1) 35%, rgba(255,53,65,1) 49%, rgba(254,161,32,1) 61%, rgba(192,216,254,1) 82%, rgba(23,176,236,1) 100%);
+    background-image: linear-gradient(to right bottom, #6e00ff, #4e40ff, #2b5aff, #006eff, #007eff, #0094ff, #00a8ff, #00baff, #00d4ff, #00e9e6, #00f89a, #2dff00);
 }
