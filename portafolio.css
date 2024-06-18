@@ -312,13 +312,13 @@ input:checked + label .description {
     background-image: url('/img/fivertel.png');
 }
 .card[for="c2"] {
-    background-image: url('/img/Gato\ piramidal.gif');
+    background-image: url('/img/proximamente.png');
 }
 .card[for="c3"] {
-    background-image: url('/img/Captura\ de\ pantalla\ 2022-12-14\ 180344.png');
+    background-image: url('/img/proximamente.png');
 }
 .card[for="c4"] {
-    background-image: url('/img/vuelta.png');
+    background-image: url('/img/proximamente.png');
 }
 
 .boton {
